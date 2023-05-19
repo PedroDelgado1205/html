@@ -1,0 +1,167 @@
+#titulo {
+    color: brown;
+}
+
+p.especial {
+    color: blueviolet; 
+ }
+
+p.texto {
+    color:midnightblue;
+}
+
+div p {
+    color: chartreuse;
+}
+
+div h2, div h3 {
+    color: cadetblue;
+}
+
+* {
+    font-size: 25px;
+    /* color: black; */
+}
+
+/*
+.color {
+    color: #ff0000;
+}
+
+.color {
+    color: rgb(5,100,0);
+}
+*/
+
+.color {
+    /* border: 5px purple inset; */
+    border-style: double;
+    border-color: coral;
+    border-radius: 15px;
+    border-width: 2mm;
+}
+
+#fondo {
+    background-color: rgba(105, 30, 30,);
+    /* opacity: 0.3; */
+    height: 400px;
+    background: #f00 url('https://i.pinimg.com/736x/8d/5f/0f/8d5f0f03407aa175ac93ab7560d82381.jpg') repeat-y center bottom / 200px 100px;
+}
+
+.margen {
+    background-color: cadetblue;
+    margin: 15px;
+    padding: 30px 15px 5px;
+    border: solid 2px black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid saddlebrown;
+}
+
+.text {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: justify;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px blue;
+}
+
+a:link {
+    color: chartreuse;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: crimson;
+}
+
+a:active {
+    color: darkgreen;
+}
+
+ul {
+    background-color: darkgoldenrod;
+    list-style-type: square;
+    /* padding-left: 0;  */
+    /* list-style-position: inside; */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse ;
+}
+
+th, td {
+    border: solid 1px #202574;
+    padding: 5px;
+}
+
+th {
+    background-color: aqua;
+    color: #fff;
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: rgb(194, 194, 194);
+}
+
+tr:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    /* display: none; */
+    /* visibility: hidden; */
+    max-width: 300px;
+    background-color: blueviolet;
+}
+
+.inline{
+    display: inline;
+}
+
+#position {
+    position: sticky;
+    left: 25px;
+    top: 25px;
+}
+
+.left{
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+
+.right {
+    float: right;
+}
+
+.contenedor {
+    height: 200px;
+}
+
+.column {
+    margin: 0;
+    padding: 10px 0;
+    width: 33%;
+}
+
+.inline-block{
+    display: inline-block;
+    height: 50px;
+    background-color: chocolate;
+}
+
+.center {
+    padding:50px 0 ;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    background-color:fuchsia;
+}
