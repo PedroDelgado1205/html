@@ -1,0 +1,45 @@
+:root{
+    --primario: rgb(15, 14, 112);
+    --secundario: rgb(139, 14, 14);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p, b, span{
+    color: var(--secundario);
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.alerta{
+    color: yellow;
+    background-color: black;
+    font-size: 16pt;
+    text-align: center;
+    margin: 2px;
+}
+
+#seccion1{
+    color: rgb(12, 99, 16);
+}
+
+hr[class="borde"]{
+    background: deeppink;
+    height: 8px;
+}
+
+.alerta#seccion1{
+    color: rgb(17, 138, 132);
+}
+
+nav ul li strong{
+    color: crimson;
+}
+
+p ~ b{
+    color: darkslategrey;
+    background: tomato;
+}
