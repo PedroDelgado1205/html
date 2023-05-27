@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        hr{
+            margin: 15px;
+        }
+        main{
+            height: 555px;
+            width: 500px;
+            background-color: aqua;
+            border: 3px blue solid;
+            border-radius: 15px;
+            padding: 25px;
+        }
+        .respuesta{
+            color: darkgray;
+            display: block;
+            background-color: white;
+            border: 3px solid black;
+            border-radius: 10px;
+            padding-top: 90px;
+            padding-bottom: 0px;
+            padding-right: 15px;
+            text-align: right;
+        }
+        div section{
+            display: inline-block;
+            border: 3px solid black;
+            border-radius: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin: 6px;
+            height: 40px;
+            width: 62px;
+            text-align: center;
+        }
+
+        .azul{
+            display: inline-block;
+            border: 3px solid black;
+            border-radius: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin: 6px;
+            height: 118px;
+            width: 62px;
+            text-align: center;
+        }
+
+        .mas{
+            display: inline-table;
+        }
+
+        
+        section b{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        body{
+            background-color:darkgreen;
+        }
+
+        .gris{
+            background-color: darkgray;
+        }
+
+        .gris:hover{
+            background-color: dimgray;
+        }
+
+        .grisclaro{
+            background-color: rgb(221, 225, 231);
+        }
+
+        .grisclaro:hover{
+            background-color: rgb(188, 191, 195);
+        }
+        
+        .rojo{
+            background-color: crimson;
+        }
+
+        .rojo:hover{
+            background-color: rgb(143, 16, 42);
+        }
+
+        .azul{
+            background-color:mediumblue;
+        }
+
+        .azul:hover{
+            background-color:darkblue;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section class="respuesta">
+            <b>0</b>
+            <hr>
+        </section>
+        <div>
+            <section class="gris">
+                <b>MC</b>
+            </section>
+            <section class="gris">
+                <b>MR</b>
+            </section>
+            <section class="gris">
+                <b>M-</b>
+            </section>
+            <section class="gris">
+                <b>M+</b>
+            </section>
+            <section class="gris">
+                <b>√</b>
+            </section>
+            <section class="gris">
+                <b>MU</b>
+            </section>
+        </div>
+        <div>
+            <section class="gris">
+                <b>+/-</b>
+            </section>
+            <section class="grisclaro">
+                <b>7</b>
+            </section>
+            <section class="grisclaro">
+                <b>8</b>
+            </section>
+            <section class="grisclaro">
+                <b>9</b>
+            </section>
+            <section class="gris">
+                <b>/</b>
+            </section>
+            <section class="gris">
+                <b>%</b>
+            </section>
+        </div>
+        <div>
+            <section class="gris">
+                <b>→</b>
+            </section>
+            <section class="grisclaro">
+                <b>4</b>
+            </section>
+            <section class="grisclaro">
+                <b>5</b>
+            </section>
+            <section class="grisclaro">
+                <b>6</b>
+            </section>
+            <section class="gris">
+                <b>*</b>
+            </section>
+            <section class="gris">
+                <b>-</b>
+            </section>
+        </div>
+        <div class="mas">
+            <div>
+                <section class="rojo">
+                    <b>AC</b>
+                </section>
+                <section class="grisclaro">
+                    <b>1</b>
+                </section>
+                <section class="grisclaro">
+                    <b>2</b>
+                </section>
+                <section class="grisclaro">
+                    <b>3</b>
+                </section>
+            </div>    
+            <div>
+                <section class="rojo">
+                    <b>C</b>
+                </section>
+                <section class="grisclaro">
+                    <b>0</b>
+                </section>
+                <section class="grisclaro">
+                    <b>00</b>
+                </section>
+                <section class="grisclaro">
+                    <b>.</b>
+                </section>
+            </div>
+        </div>
+        <div class="mas">
+            <section class="azul">
+                <b>+</b>
+            </section>
+            <section class="azul">
+                <b>=</b>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

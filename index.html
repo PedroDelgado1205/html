@@ -7,6 +7,11 @@
     <title>Web</title>
     <link rel="stylesheet" href="css/estilos.css">
     <style>
+
+        body{
+            background-color: chocolate;
+        }
+
         h2{
             color: white;
             background: black;
@@ -14,14 +19,47 @@
             border-radius: 6px;
         }
 
+        /* .alerta:hover{
+            background: brown;
+            color: azure;
+        }
+
+        li:hover{
+            background: teal;
+            margin: 4px;
+            border-radius: 5px;
+        } */
+
+        nav{
+            background-color: rebeccapurple;
+            color: blanchedalmond;
+        }
+
+        li{
+            background-color: inherit;
+            margin: 2px;
+            border-radius: 5px;
+            border: 1px solid white;
+        }
+
+        /*#item{
+            background-color: black;
+        }
+
+        nav ul #item .alerta{
+            background-color: chartreuse;
+        }*/
+
     </style>
 </head>
 <body>
     <h1 style="color: brown; text-align: center;">Mi pagina web</h1>
     <nav>
         <ul>
-            <li class="alerta"><strong>Inicio</strong></li>
+            <li id="item" class="alerta"><strong>Inicio</strong></li>
             <li class="alerta">Proyectos</li>
+            <li>no clase</li>
+            <li>no clase</li>
         </ul>
     </nav>
     <hr class="borde">
