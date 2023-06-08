@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background: black;
+            /*shorthand*/
+            /*border: 5px solid salmon0;*/
+            border-color: brown;
+            border-width: 10px;
+            border-style: double;
+            padding: 10px;
+        }
+        .cuadros{
+            display: inline;
+            text-align: center;
+            color: white;
+            border: 5px solid white;
+            border-radius: 50%;
+            margin-right: 2mm;
+            font-size: 40pt;
+            height: 100px;
+            width: 100px;
+        } 
+        .bob{
+            margin-top: 5%;
+            margin-left: auto;
+            margin-right: auto;
+            
+            height: 350px;
+            width: 230px;
+        }
+        .head-bob{
+            outline: 10px solid red;
+            box-shadow: 20px -20px 8px 10px rgba(30, 28, 28, 0.9);
+            border: 2px solid black;
+            padding: 20px;
+            background: yellow;
+            height: 70%;
+        }
+        .body-bob{
+            border: 1px solid black;
+            background: white;
+            height: 30%;
+        }
+        .ojos{
+            margin: 0 auto;
+            width: 95%;
+        }
+        .ojo{
+            display: inline-block;
+            background-color: white;
+            border: 1px black;
+            border-radius: 50%;
+            height: 70px;
+            width: 70px;
+        }
+        .nariz{
+            display: inline-block;
+            border-left: 2px solid black;
+            border-top: 2px solid black;
+            border-right: 2px solid black;
+            border-radius: 8px 8px 5px 5px;
+            width: 15px;
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cuadros">1</div>
+        <div class="cuadros">2</div>
+        <div class="cuadros">3</div>
+    </div>
+    <div class="bob">
+        <div class="head-bob">
+            <div class="ojos">
+                <div class="ojo"></div>
+                <div class="nariz"></div>
+                <div class="ojo"></div>
+            </div>
+        </div>
+        <div class="body-bob">
+        </div>
+    </div>
+</body>
+</html>

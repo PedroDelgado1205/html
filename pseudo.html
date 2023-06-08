@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            background: yellow;
+            border: 3px solid black;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px;
+            transition: all 0.5s ease-in-out;
+        }
+
+        h1:hover{
+            text-align: left;
+            background: brown;
+            color: goldenrod;
+            font-size: 30px;
+        }
+
+        .link{
+            margin-left: 40px;
+        }
+        .link:active{
+            color:brown;
+            background: black;
+        }
+        .link:visited{
+            background: brown;
+            color: goldenrod;
+        }
+        .main{
+            background: green;
+            background: url("C:\html\img\fondo.jpg");
+        }
+        .main div{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            font-size: 40px;
+            color: blue;
+            border: 3px dotted black;
+            box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        
+        .main:last-child{
+            background-color: blueviolet;
+            color: tomato;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="titulo">Titulo</h1>
+    <a href="#" class="link">enlace</a>
+    <div class="main">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</body>
+</html>
