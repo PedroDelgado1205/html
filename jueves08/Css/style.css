@@ -35,10 +35,11 @@ body{
     width: 200px;
     /* flex-basis: auto;
     flex-grow: 1; */
-    flex: initial;/*0 1 auto*/
+    /* flex: initial;/*0 1 auto*/
     flex: auto;/*1 1 auto*/
     flex: none;/*0 0 auto*/
-    flex: 1;/*1 1 0*/
+    flex: 1;/*1 1 0 */
+    
 }
 
 .two{
