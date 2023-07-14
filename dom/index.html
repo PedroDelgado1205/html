@@ -4,25 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
-    <style>
-        .seccion-form{
-            border: 2px solid green;
-            width: 30%;
-        }
-        .btn{
-            border:none;
-            margin: 5px;
-            background: tomato;
-            padding: 5px;
-            color: aliceblue;
-            border-radius: 5px;
-        }
-        .btn:hover{
-            cursor: pointer;
-            box-shadow: 1px 1px 1px black;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -35,12 +17,17 @@
                 <div> <input type="text" name="year" id="id_year" placeholder="Escriba su Año de nacimiento"> </div>
                 <button id="btn" onclick="agregar()" class="btn">Agregar</button>
             </div>
-        </section>  
-        <div id="mostrar">
-            <ul id="id_lista"></ul>
-        </div>
-
+    <div class="tabla">
+        <table>
+            <tr>
+                <th class="head">Nombre</th>
+                <th class="head">Apellido</th>
+                <th class="head">Edad</th>
+                <th class="head">ELI/EDI</th>
+            </tr>
+        </table>
+    </div>
     </main>
-    <script src="js/dom.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
