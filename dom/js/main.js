@@ -56,7 +56,7 @@ function editarFila(event) {
 
     nameInput.value = nombre;
     apeInput.value = apellido;
-    yearInput.value = "";
+    yearInput.value = 2023-parseInt(edad);
 
     console.log('Editar fila con ID:', filaId);
     console.log('Nombre:', nombre);
